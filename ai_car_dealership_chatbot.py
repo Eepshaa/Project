@@ -57,7 +57,7 @@ Assistant:"""
 
 # Chat loop (NLP-based interaction with GPT)
 def run_chatbot():
-    print("🚗 Welcome to the AI Car Dealership Assistant (LLM + NLP)")
+    print("Welcome to the AI Car Dealership Assistant (LLM + NLP)")
     print("Ask about pricing, financing, or what people think of a model. Type 'exit' to quit.\n")
 
     while True:
