@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-# Static inventory data (used to ground the LLM)
+# Static inventory data 
 inventory = """
 Available Cars:
 1. Tesla Model 3 (Electric, 2024) - €38,000
